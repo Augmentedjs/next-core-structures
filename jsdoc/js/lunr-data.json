@@ -65,6 +65,14 @@
           "map",
           "marshal"
         ],
+        "AugmentedMap.html#set": [
+          "augmentedmap#set",
+          "function",
+          "key",
+          "map",
+          "set",
+          "valu"
+        ],
         "AugmentedMap.html#get": [
           "augmentedmap#get",
           "function",
@@ -174,64 +182,14 @@
           "datatomarshal",
           "follow",
           "function",
+          "json",
           "key/valu",
-          "mapdatatomarshal",
+          "map",
           "marshal",
           "object",
-          "parse:json",
+          "pars",
           "properti",
           "type"
-        ],
-        "AugmentedMap.html#set": [
-          "augmentedmap#set",
-          "function",
-          "key",
-          "map",
-          "set",
-          "valu"
-        ],
-        "AsynchronousQueue.html": [
-          "async",
-          "asynchronousqueu",
-          "chain",
-          "class",
-          "function",
-          "handl",
-          "queue"
-        ],
-        "AsynchronousQueue.html#timeout": [
-          "asynchronousqueue#timeout",
-          "member",
-          "queue",
-          "timeout"
-        ],
-        "AsynchronousQueue.html#queue": [
-          "asynchronousqueue#queu",
-          "full",
-          "member",
-          "queue"
-        ],
-        "AsynchronousQueue.html#add": [
-          "ad",
-          "add",
-          "asynchronousqueue#add",
-          "function",
-          "method",
-          "process",
-          "queue"
-        ],
-        "AsynchronousQueue.html#clear": [
-          "asynchronousqueue#clear",
-          "clear",
-          "function",
-          "process",
-          "queue"
-        ],
-        "AsynchronousQueue.html#process": [
-          "asynchronousqueue#process",
-          "function",
-          "process",
-          "queue"
         ],
         "Stack.html": [
           "array",
@@ -322,6 +280,49 @@
           "stack#tostr",
           "string",
           "tostr"
+        ],
+        "AsynchronousQueue.html": [
+          "async",
+          "asynchronousqueu",
+          "chain",
+          "class",
+          "function",
+          "handl",
+          "queue"
+        ],
+        "AsynchronousQueue.html#timeout": [
+          "asynchronousqueue#timeout",
+          "member",
+          "queue",
+          "timeout"
+        ],
+        "AsynchronousQueue.html#queue": [
+          "asynchronousqueue#queu",
+          "full",
+          "member",
+          "queue"
+        ],
+        "AsynchronousQueue.html#add": [
+          "ad",
+          "add",
+          "asynchronousqueue#add",
+          "function",
+          "method",
+          "process",
+          "queue"
+        ],
+        "AsynchronousQueue.html#clear": [
+          "asynchronousqueue#clear",
+          "clear",
+          "function",
+          "process",
+          "queue"
+        ],
+        "AsynchronousQueue.html#process": [
+          "asynchronousqueue#process",
+          "function",
+          "process",
+          "queue"
         ]
       },
       "length": 35
@@ -371,6 +372,25 @@
                                 },
                                 "#": {
                                   "docs": {},
+                                  "s": {
+                                    "docs": {
+                                      "AugmentedMap.html#size": {
+                                        "ref": "AugmentedMap.html#size",
+                                        "tf": 1150
+                                      }
+                                    },
+                                    "e": {
+                                      "docs": {},
+                                      "t": {
+                                        "docs": {
+                                          "AugmentedMap.html#set": {
+                                            "ref": "AugmentedMap.html#set",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
                                   "g": {
                                     "docs": {},
                                     "e": {
@@ -562,25 +582,6 @@
                                       }
                                     }
                                   },
-                                  "s": {
-                                    "docs": {
-                                      "AugmentedMap.html#size": {
-                                        "ref": "AugmentedMap.html#size",
-                                        "tf": 1150
-                                      }
-                                    },
-                                    "e": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "AugmentedMap.html#set": {
-                                            "ref": "AugmentedMap.html#set",
-                                            "tf": 1150
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
                                   "t": {
                                     "docs": {},
                                     "o": {
@@ -677,6 +678,26 @@
                       "tf": 10
                     }
                   }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {
+              "AsynchronousQueue.html#add": {
+                "ref": "AsynchronousQueue.html#add",
+                "tf": 10
+              }
+            },
+            "d": {
+              "docs": {
+                "Stack.html#push": {
+                  "ref": "Stack.html#push",
+                  "tf": 12.5
+                },
+                "AsynchronousQueue.html#add": {
+                  "ref": "AsynchronousQueue.html#add",
+                  "tf": 760
                 }
               }
             }
@@ -844,26 +865,6 @@
                 }
               }
             }
-          },
-          "d": {
-            "docs": {
-              "AsynchronousQueue.html#add": {
-                "ref": "AsynchronousQueue.html#add",
-                "tf": 10
-              }
-            },
-            "d": {
-              "docs": {
-                "AsynchronousQueue.html#add": {
-                  "ref": "AsynchronousQueue.html#add",
-                  "tf": 760
-                },
-                "Stack.html#push": {
-                  "ref": "Stack.html#push",
-                  "tf": 12.5
-                }
-              }
-            }
           }
         },
         "c": {
@@ -898,12 +899,12 @@
                       "ref": "AugmentedMap.html",
                       "tf": 110
                     },
-                    "AsynchronousQueue.html": {
-                      "ref": "AsynchronousQueue.html",
-                      "tf": 110
-                    },
                     "Stack.html": {
                       "ref": "Stack.html",
+                      "tf": 110
+                    },
+                    "AsynchronousQueue.html": {
+                      "ref": "AsynchronousQueue.html",
                       "tf": 110
                     }
                   }
@@ -920,10 +921,6 @@
                       "ref": "AugmentedMap.html#clear",
                       "tf": 775
                     },
-                    "AsynchronousQueue.html#clear": {
-                      "ref": "AsynchronousQueue.html#clear",
-                      "tf": 766.6666666666666
-                    },
                     "Stack.html#empty": {
                       "ref": "Stack.html#empty",
                       "tf": 12.5
@@ -931,6 +928,10 @@
                     "Stack.html#clear": {
                       "ref": "Stack.html#clear",
                       "tf": 775
+                    },
+                    "AsynchronousQueue.html#clear": {
+                      "ref": "AsynchronousQueue.html#clear",
+                      "tf": 766.6666666666666
                     }
                   }
                 }
@@ -1032,7 +1033,7 @@
                 "docs": {
                   "AugmentedMap.html#marshall": {
                     "ref": "AugmentedMap.html#marshall",
-                    "tf": 5.555555555555555
+                    "tf": 4.545454545454546
                   },
                   "Stack.html": {
                     "ref": "Stack.html",
@@ -1059,7 +1060,7 @@
                                   "docs": {
                                     "AugmentedMap.html#marshall": {
                                       "ref": "AugmentedMap.html#marshall",
-                                      "tf": 50
+                                      "tf": 54.54545454545455
                                     }
                                   }
                                 }
@@ -1312,6 +1313,34 @@
                   "Stack.html#size": {
                     "ref": "Stack.html#size",
                     "tf": 770
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "t": {
+              "docs": {
+                "AugmentedMap.html#set": {
+                  "ref": "AugmentedMap.html#set",
+                  "tf": 695.8333333333334
+                }
+              }
+            },
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "Stack.html#search": {
+                        "ref": "Stack.html#search",
+                        "tf": 758.3333333333334
+                      }
+                    }
                   }
                 }
               }
@@ -1590,34 +1619,6 @@
               }
             }
           },
-          "e": {
-            "docs": {},
-            "t": {
-              "docs": {
-                "AugmentedMap.html#set": {
-                  "ref": "AugmentedMap.html#set",
-                  "tf": 695.8333333333334
-                }
-              }
-            },
-            "a": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "h": {
-                    "docs": {
-                      "Stack.html#search": {
-                        "ref": "Stack.html#search",
-                        "tf": 758.3333333333334
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
           "u": {
             "docs": {},
             "p": {
@@ -1792,6 +1793,10 @@
                   "ref": "AugmentedMap.html",
                   "tf": 16.666666666666664
                 },
+                "AugmentedMap.html#set": {
+                  "ref": "AugmentedMap.html#set",
+                  "tf": 12.5
+                },
                 "AugmentedMap.html#get": {
                   "ref": "AugmentedMap.html#get",
                   "tf": 16.666666666666664
@@ -1844,53 +1849,9 @@
                   "ref": "AugmentedMap.html#isEmpty",
                   "tf": 12.5
                 },
-                "AugmentedMap.html#set": {
-                  "ref": "AugmentedMap.html#set",
-                  "tf": 12.5
-                }
-              },
-              "d": {
-                "docs": {},
-                "a": {
-                  "docs": {},
-                  "t": {
-                    "docs": {},
-                    "a": {
-                      "docs": {},
-                      "t": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "m": {
-                            "docs": {},
-                            "a": {
-                              "docs": {},
-                              "r": {
-                                "docs": {},
-                                "s": {
-                                  "docs": {},
-                                  "h": {
-                                    "docs": {},
-                                    "a": {
-                                      "docs": {},
-                                      "l": {
-                                        "docs": {
-                                          "AugmentedMap.html#marshall": {
-                                            "ref": "AugmentedMap.html#marshall",
-                                            "tf": 5.555555555555555
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
+                "AugmentedMap.html#marshall": {
+                  "ref": "AugmentedMap.html#marshall",
+                  "tf": 4.545454545454546
                 }
               }
             },
@@ -1910,7 +1871,7 @@
                         },
                         "AugmentedMap.html#marshall": {
                           "ref": "AugmentedMap.html#marshall",
-                          "tf": 705.5555555555555
+                          "tf": 704.5454545454545
                         }
                       }
                     }
@@ -1921,27 +1882,6 @@
           },
           "e": {
             "docs": {},
-            "m": {
-              "docs": {},
-              "b": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "AsynchronousQueue.html#timeout": {
-                        "ref": "AsynchronousQueue.html#timeout",
-                        "tf": 110
-                      },
-                      "AsynchronousQueue.html#queue": {
-                        "ref": "AsynchronousQueue.html#queue",
-                        "tf": 110
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "t": {
               "docs": {},
               "h": {
@@ -1950,10 +1890,6 @@
                   "docs": {},
                   "d": {
                     "docs": {
-                      "AsynchronousQueue.html#add": {
-                        "ref": "AsynchronousQueue.html#add",
-                        "tf": 10
-                      },
                       "Stack.html#empty": {
                         "ref": "Stack.html#empty",
                         "tf": 12.5
@@ -1989,6 +1925,31 @@
                       "Stack.html#toString": {
                         "ref": "Stack.html#toString",
                         "tf": 10
+                      },
+                      "AsynchronousQueue.html#add": {
+                        "ref": "AsynchronousQueue.html#add",
+                        "tf": 10
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "AsynchronousQueue.html#timeout": {
+                        "ref": "AsynchronousQueue.html#timeout",
+                        "tf": 110
+                      },
+                      "AsynchronousQueue.html#queue": {
+                        "ref": "AsynchronousQueue.html#queue",
+                        "tf": 110
                       }
                     }
                   }
@@ -2013,6 +1974,10 @@
                       "docs": {},
                       "n": {
                         "docs": {
+                          "AugmentedMap.html#set": {
+                            "ref": "AugmentedMap.html#set",
+                            "tf": 110
+                          },
                           "AugmentedMap.html#get": {
                             "ref": "AugmentedMap.html#get",
                             "tf": 110
@@ -2069,26 +2034,6 @@
                             "ref": "AugmentedMap.html#marshall",
                             "tf": 110
                           },
-                          "AugmentedMap.html#set": {
-                            "ref": "AugmentedMap.html#set",
-                            "tf": 110
-                          },
-                          "AsynchronousQueue.html": {
-                            "ref": "AsynchronousQueue.html",
-                            "tf": 7.142857142857142
-                          },
-                          "AsynchronousQueue.html#add": {
-                            "ref": "AsynchronousQueue.html#add",
-                            "tf": 110
-                          },
-                          "AsynchronousQueue.html#clear": {
-                            "ref": "AsynchronousQueue.html#clear",
-                            "tf": 110
-                          },
-                          "AsynchronousQueue.html#process": {
-                            "ref": "AsynchronousQueue.html#process",
-                            "tf": 110
-                          },
                           "Stack.html#empty": {
                             "ref": "Stack.html#empty",
                             "tf": 110
@@ -2123,6 +2068,22 @@
                           },
                           "Stack.html#toString": {
                             "ref": "Stack.html#toString",
+                            "tf": 110
+                          },
+                          "AsynchronousQueue.html": {
+                            "ref": "AsynchronousQueue.html",
+                            "tf": 7.142857142857142
+                          },
+                          "AsynchronousQueue.html#add": {
+                            "ref": "AsynchronousQueue.html#add",
+                            "tf": 110
+                          },
+                          "AsynchronousQueue.html#clear": {
+                            "ref": "AsynchronousQueue.html#clear",
+                            "tf": 110
+                          },
+                          "AsynchronousQueue.html#process": {
+                            "ref": "AsynchronousQueue.html#process",
                             "tf": 110
                           }
                         }
@@ -2184,7 +2145,7 @@
                     "docs": {
                       "AugmentedMap.html#marshall": {
                         "ref": "AugmentedMap.html#marshall",
-                        "tf": 5.555555555555555
+                        "tf": 4.545454545454546
                       }
                     }
                   }
@@ -2220,6 +2181,10 @@
             "docs": {},
             "y": {
               "docs": {
+                "AugmentedMap.html#set": {
+                  "ref": "AugmentedMap.html#set",
+                  "tf": 45.83333333333333
+                },
                 "AugmentedMap.html#get": {
                   "ref": "AugmentedMap.html#get",
                   "tf": 116.66666666666666
@@ -2247,10 +2212,6 @@
                 "AugmentedMap.html#size": {
                   "ref": "AugmentedMap.html#size",
                   "tf": 16.666666666666664
-                },
-                "AugmentedMap.html#set": {
-                  "ref": "AugmentedMap.html#set",
-                  "tf": 45.83333333333333
                 }
               },
               "/": {
@@ -2265,7 +2226,7 @@
                         "docs": {
                           "AugmentedMap.html#marshall": {
                             "ref": "AugmentedMap.html#marshall",
-                            "tf": 5.555555555555555
+                            "tf": 4.545454545454546
                           }
                         }
                       }
@@ -2284,6 +2245,10 @@
               "docs": {},
               "u": {
                 "docs": {
+                  "AugmentedMap.html#set": {
+                    "ref": "AugmentedMap.html#set",
+                    "tf": 45.83333333333333
+                  },
                   "AugmentedMap.html#get": {
                     "ref": "AugmentedMap.html#get",
                     "tf": 16.666666666666664
@@ -2303,10 +2268,6 @@
                   "AugmentedMap.html#values": {
                     "ref": "AugmentedMap.html#values",
                     "tf": 766.6666666666666
-                  },
-                  "AugmentedMap.html#set": {
-                    "ref": "AugmentedMap.html#set",
-                    "tf": 45.83333333333333
                   }
                 }
               }
@@ -2357,7 +2318,7 @@
                       },
                       "AugmentedMap.html#marshall": {
                         "ref": "AugmentedMap.html#marshall",
-                        "tf": 5.555555555555555
+                        "tf": 4.545454545454546
                       }
                     }
                   }
@@ -2401,6 +2362,10 @@
                   "AugmentedMap.html#toString": {
                     "ref": "AugmentedMap.html#toString",
                     "tf": 12.5
+                  },
+                  "AugmentedMap.html#marshall": {
+                    "ref": "AugmentedMap.html#marshall",
+                    "tf": 4.545454545454546
                   }
                 }
               }
@@ -2475,7 +2440,7 @@
                 "docs": {
                   "AugmentedMap.html#marshall": {
                     "ref": "AugmentedMap.html#marshall",
-                    "tf": 5.555555555555555
+                    "tf": 4.545454545454546
                   }
                 }
               }
@@ -2512,28 +2477,10 @@
             "r": {
               "docs": {},
               "s": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  ":": {
-                    "docs": {},
-                    "j": {
-                      "docs": {},
-                      "s": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "n": {
-                            "docs": {
-                              "AugmentedMap.html#marshall": {
-                                "ref": "AugmentedMap.html#marshall",
-                                "tf": 5.555555555555555
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
+                "docs": {
+                  "AugmentedMap.html#marshall": {
+                    "ref": "AugmentedMap.html#marshall",
+                    "tf": 4.545454545454546
                   }
                 }
               }
@@ -2555,7 +2502,7 @@
                         "docs": {
                           "AugmentedMap.html#marshall": {
                             "ref": "AugmentedMap.html#marshall",
-                            "tf": 5.555555555555555
+                            "tf": 4.545454545454546
                           }
                         }
                       }
@@ -2702,7 +2649,7 @@
           }
         }
       },
-      "length": 214
+      "length": 215
     },
     "corpusTokens": [
       "ad",
@@ -2764,14 +2711,13 @@
       "list",
       "list:class",
       "map",
-      "mapdatatomarshal",
       "marshal",
       "member",
       "method",
       "next",
       "object",
       "option",
-      "parse:json",
+      "pars",
       "peek",
       "pop",
       "popul",
@@ -2859,6 +2805,16 @@
       "summary": "",
       "description": "ES6-like Map - than can marshall",
       "body": ""
+    },
+    "AugmentedMap.html#set": {
+      "id": "AugmentedMap.html#set",
+      "kind": "function",
+      "title": "set( key, value )",
+      "longname": "AugmentedMap#set",
+      "name": "set",
+      "tags": "AugmentedMap#set set",
+      "summary": "",
+      "description": "Set the value by key in the map"
     },
     "AugmentedMap.html#get": {
       "id": "AugmentedMap.html#get",
@@ -2998,78 +2954,7 @@
       "name": "marshall",
       "tags": "AugmentedMap#marshall marshall",
       "summary": "",
-      "description": "Marshalls a mapdataToMarshall must be the following type of data to parse:JSON object with properties (key/value)"
-    },
-    "AugmentedMap.html#set": {
-      "id": "AugmentedMap.html#set",
-      "kind": "function",
-      "title": "set( key, value )",
-      "longname": "AugmentedMap#set",
-      "name": "set",
-      "tags": "AugmentedMap#set set",
-      "summary": "",
-      "description": "Set the value by key in the map"
-    },
-    "AsynchronousQueue.html": {
-      "id": "AsynchronousQueue.html",
-      "kind": "class",
-      "title": "AsynchronousQueue",
-      "longname": "AsynchronousQueue",
-      "name": "AsynchronousQueue",
-      "tags": "AsynchronousQueue",
-      "summary": "",
-      "description": "AsynchronousQueue -An Async queue for handling async chained functions",
-      "body": ""
-    },
-    "AsynchronousQueue.html#timeout": {
-      "id": "AsynchronousQueue.html#timeout",
-      "kind": "member",
-      "title": "timeout",
-      "longname": "AsynchronousQueue#timeout",
-      "name": "timeout",
-      "tags": "AsynchronousQueue#timeout timeout",
-      "summary": "",
-      "description": "Get the timeout for the queue"
-    },
-    "AsynchronousQueue.html#queue": {
-      "id": "AsynchronousQueue.html#queue",
-      "kind": "member",
-      "title": "queue",
-      "longname": "AsynchronousQueue#queue",
-      "name": "queue",
-      "tags": "AsynchronousQueue#queue queue",
-      "summary": "",
-      "description": "Get the full queue"
-    },
-    "AsynchronousQueue.html#add": {
-      "id": "AsynchronousQueue.html#add",
-      "kind": "function",
-      "title": "add()",
-      "longname": "AsynchronousQueue#add",
-      "name": "add",
-      "tags": "AsynchronousQueue#add add",
-      "summary": "",
-      "description": "Add method for adding processes to the queue"
-    },
-    "AsynchronousQueue.html#clear": {
-      "id": "AsynchronousQueue.html#clear",
-      "kind": "function",
-      "title": "clear()",
-      "longname": "AsynchronousQueue#clear",
-      "name": "clear",
-      "tags": "AsynchronousQueue#clear clear",
-      "summary": "",
-      "description": "Clear all processes in the queue"
-    },
-    "AsynchronousQueue.html#process": {
-      "id": "AsynchronousQueue.html#process",
-      "kind": "function",
-      "title": "process()",
-      "longname": "AsynchronousQueue#process",
-      "name": "process",
-      "tags": "AsynchronousQueue#process process",
-      "summary": "",
-      "description": "Process the queue"
+      "description": "Marshalls a map dataToMarshall must be the following type of data to parse: JSON object with properties (key/value)"
     },
     "Stack.html": {
       "id": "Stack.html",
@@ -3171,6 +3056,67 @@
       "tags": "Stack#toString toString",
       "summary": "",
       "description": "The toString method returns the stack as an string"
+    },
+    "AsynchronousQueue.html": {
+      "id": "AsynchronousQueue.html",
+      "kind": "class",
+      "title": "AsynchronousQueue",
+      "longname": "AsynchronousQueue",
+      "name": "AsynchronousQueue",
+      "tags": "AsynchronousQueue",
+      "summary": "",
+      "description": "AsynchronousQueue - An Async queue for handling async chained functions",
+      "body": ""
+    },
+    "AsynchronousQueue.html#timeout": {
+      "id": "AsynchronousQueue.html#timeout",
+      "kind": "member",
+      "title": "timeout",
+      "longname": "AsynchronousQueue#timeout",
+      "name": "timeout",
+      "tags": "AsynchronousQueue#timeout timeout",
+      "summary": "",
+      "description": "Get the timeout for the queue"
+    },
+    "AsynchronousQueue.html#queue": {
+      "id": "AsynchronousQueue.html#queue",
+      "kind": "member",
+      "title": "queue",
+      "longname": "AsynchronousQueue#queue",
+      "name": "queue",
+      "tags": "AsynchronousQueue#queue queue",
+      "summary": "",
+      "description": "Get the full queue"
+    },
+    "AsynchronousQueue.html#add": {
+      "id": "AsynchronousQueue.html#add",
+      "kind": "function",
+      "title": "add()",
+      "longname": "AsynchronousQueue#add",
+      "name": "add",
+      "tags": "AsynchronousQueue#add add",
+      "summary": "",
+      "description": "Add method for adding processes to the queue"
+    },
+    "AsynchronousQueue.html#clear": {
+      "id": "AsynchronousQueue.html#clear",
+      "kind": "function",
+      "title": "clear()",
+      "longname": "AsynchronousQueue#clear",
+      "name": "clear",
+      "tags": "AsynchronousQueue#clear clear",
+      "summary": "",
+      "description": "Clear all processes in the queue"
+    },
+    "AsynchronousQueue.html#process": {
+      "id": "AsynchronousQueue.html#process",
+      "kind": "function",
+      "title": "process()",
+      "longname": "AsynchronousQueue#process",
+      "name": "process",
+      "tags": "AsynchronousQueue#process process",
+      "summary": "",
+      "description": "Process the queue"
     }
   }
 }
