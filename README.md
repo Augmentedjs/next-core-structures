@@ -8,53 +8,53 @@ Augmented.js Next Core - Structures
 
 ### Table of Contents
 
--   [Stack](#stack)
-    -   [Parameters](#parameters)
-    -   [empty](#empty)
-    -   [peek](#peek)
-    -   [pop](#pop)
-    -   [push](#push)
-        -   [Parameters](#parameters-1)
-    -   [search](#search)
-        -   [Parameters](#parameters-2)
-    -   [size](#size)
-    -   [clear](#clear)
-    -   [toArray](#toarray)
-    -   [toString](#tostring)
--   [AugmentedMap](#augmentedmap)
-    -   [Parameters](#parameters-3)
-    -   [set](#set)
-        -   [Parameters](#parameters-4)
-    -   [get](#get)
-        -   [Parameters](#parameters-5)
-    -   [indexOf](#indexof)
-        -   [Parameters](#parameters-6)
-    -   [remove](#remove)
-        -   [Parameters](#parameters-7)
-    -   [has](#has)
-        -   [Parameters](#parameters-8)
-    -   [forEach](#foreach)
-        -   [Parameters](#parameters-9)
-    -   [key](#key)
-        -   [Parameters](#parameters-10)
-    -   [entries](#entries)
-    -   [values](#values)
-    -   [clear](#clear-1)
-    -   [size](#size-1)
-    -   [toJSON](#tojson)
-    -   [toString](#tostring-1)
-    -   [isEmpty](#isempty)
-    -   [marshall](#marshall)
-        -   [Parameters](#parameters-11)
--   [AsynchronousQueue](#asynchronousqueue)
-    -   [Parameters](#parameters-12)
-    -   [add](#add)
-        -   [Parameters](#parameters-13)
-    -   [clear](#clear-2)
-    -   [process](#process)
-        -   [Parameters](#parameters-14)
-    -   [timeout](#timeout)
-    -   [queue](#queue)
+*   [Stack](#stack)
+    *   [Parameters](#parameters)
+    *   [empty](#empty)
+    *   [peek](#peek)
+    *   [pop](#pop)
+    *   [push](#push)
+        *   [Parameters](#parameters-1)
+    *   [search](#search)
+        *   [Parameters](#parameters-2)
+    *   [size](#size)
+    *   [clear](#clear)
+    *   [toArray](#toarray)
+    *   [toString](#tostring)
+*   [AugmentedMap](#augmentedmap)
+    *   [Parameters](#parameters-3)
+    *   [set](#set)
+        *   [Parameters](#parameters-4)
+    *   [get](#get)
+        *   [Parameters](#parameters-5)
+    *   [indexOf](#indexof)
+        *   [Parameters](#parameters-6)
+    *   [remove](#remove)
+        *   [Parameters](#parameters-7)
+    *   [has](#has)
+        *   [Parameters](#parameters-8)
+    *   [forEach](#foreach)
+        *   [Parameters](#parameters-9)
+    *   [key](#key)
+        *   [Parameters](#parameters-10)
+    *   [entries](#entries)
+    *   [values](#values)
+    *   [clear](#clear-1)
+    *   [size](#size-1)
+    *   [toJSON](#tojson)
+    *   [toString](#tostring-1)
+    *   [isEmpty](#isempty)
+    *   [marshall](#marshall)
+        *   [Parameters](#parameters-11)
+*   [AsynchronousQueue](#asynchronousqueue)
+    *   [Parameters](#parameters-12)
+    *   [add](#add)
+        *   [Parameters](#parameters-13)
+    *   [clear](#clear-2)
+    *   [process](#process)
+        *   [Parameters](#parameters-14)
+    *   [timeout](#timeout)
+    *   [queue](#queue)
 
 ## Stack
 
@@ -67,7 +67,7 @@ Stack - Standard Stack data structure</br>
 
 ### Parameters
 
--   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
+*   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Options to pass
 
 ### empty
 
@@ -91,7 +91,7 @@ The push method adds to the stack
 
 #### Parameters
 
--   `item` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The item to push to the stack
+*   `item` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The item to push to the stack
 
 ### search
 
@@ -99,7 +99,7 @@ The search method returns where in the stack an item exists
 
 #### Parameters
 
--   `item`  
+*   `item`  
 
 Returns **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Returns the index of the item
 
@@ -131,7 +131,7 @@ ES6-like Map - than can marshall
 
 ### Parameters
 
--   `myData`  {object} Map data to fill map
+*   `myData`  {object} Map data to fill map
 
 ### set
 
@@ -139,8 +139,8 @@ Set the value by key in the map
 
 #### Parameters
 
--   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
--   `value` **any** value for the key
+*   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
+*   `value` **any** value for the key
 
 ### get
 
@@ -148,7 +148,7 @@ Get the value by key in the map
 
 #### Parameters
 
--   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
+*   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
 
 Returns **any** The value for the key
 
@@ -158,7 +158,7 @@ Index of the key in the map
 
 #### Parameters
 
--   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
+*   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
 
 Returns **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** index of the key
 
@@ -168,7 +168,7 @@ Remove the value by key in the map
 
 #### Parameters
 
--   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
+*   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
 
 ### has
 
@@ -176,7 +176,7 @@ Has returns whether a key exists in the map
 
 #### Parameters
 
--   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
+*   `key` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** name of the key
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** true if the key exists in the map
 
@@ -186,7 +186,7 @@ Iterator forEach key to value in the map
 
 #### Parameters
 
--   `fn` **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** callback for the iterator
+*   `fn` **[function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** callback for the iterator
 
 ### key
 
@@ -194,7 +194,7 @@ Get the key for the index in the map
 
 #### Parameters
 
--   `i` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** index of the key
+*   `i` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** index of the key
 
 Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** the key at index
 
@@ -246,7 +246,7 @@ JSON object with properties (key/value)
 
 #### Parameters
 
--   `dataToMarshall` **Augmented.Utility.Map** Data to marshall as a map
+*   `dataToMarshall` **Augmented.Utility.Map** Data to marshall as a map
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** Returns true on success
 
@@ -257,7 +257,7 @@ An Async queue for handling async chained functions
 
 ### Parameters
 
--   `timeout` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The timout period for each process in the queue (optional)
+*   `timeout` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The timout period for each process in the queue (optional)
 
 ### add
 
@@ -265,7 +265,7 @@ Add method for adding processes to the queue
 
 #### Parameters
 
--   `args` **...any** 
+*   `args` **...any** 
 
 ### clear
 
@@ -277,7 +277,7 @@ Process the queue
 
 #### Parameters
 
--   `args` **...any** 
+*   `args` **...any** 
 
 ### timeout
 
